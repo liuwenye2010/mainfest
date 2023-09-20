@@ -3,9 +3,7 @@
   <remote name="origin" fetch="https://github.com/liuwenye2010" />
   <default revision="main" remote="origin" sync-j="4" />
 
-  <project path="project1" name="linux-android.git" />
-  <default revision="master" remote="origin" sync-j="4" />
+  <project path="project_linux-android" name="linux-android.git" revision="master" />
+  <project path="project_makefile" name="prj_makefile.git" revision="master" />
   
-  <project path="project2" name="prj_makefile.git" />
-  <default revision="master" remote="origin" sync-j="4" />
 </manifest>
